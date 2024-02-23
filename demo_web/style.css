@@ -1,0 +1,49 @@
+:root {
+    --lavender: #D3E4FF;
+    --dutch-white:#FFF1C9;
+    --pale-dogwood:#FEDAC9;
+    --amber: #FFBE0B;
+    --orange: #FB5607;
+    --rose: #FF006E;
+    --blue-violet: #8338EC;
+    --azure: #3A86FF;
+}
+
+
+
+body{
+    background-color:var(--azure);
+}
+
+
+nav > ul > li{
+    list-style-type: none;
+    display:inline
+
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+   
+}
+#main_figure{
+    text-align: center;
+}
+
+/* Clase */
+.content {
+    background-color: var(--lavender);
+}
+
+/* ID */
+#title{
+    border: 1px dotted black;
+}
+
+#main_picture{
+    width:30%
+}
+
+figure > figcaption{
+    font-size: small;
+}
